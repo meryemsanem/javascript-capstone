@@ -62,7 +62,7 @@
 
 >
 
-- [Live Demo](https://meryemsanem.github.io/javascript-capstone/)
+- [Live Demo](https://meryemsanem.github.io/javascript-capstone/dist/)
 
 <!-- GETTING STARTED -->
 
