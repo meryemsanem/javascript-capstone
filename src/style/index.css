@@ -388,7 +388,7 @@ textarea::placeholder {
 
 @media only screen and (max-width: 770px) {
   .meal-container {
-    grid-template-columns: repeat(2, 25rem);
+    grid-template-columns: repeat(1, 25rem);
   }
 
   .nav-menu ul {
@@ -396,23 +396,34 @@ textarea::placeholder {
   }
 
   .header {
-    padding: 0 8rem;
-    gap: 10rem;
+    padding: 0;
+    gap: 2rem;
   }
 
   .link {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 
   .model {
-    width: 60rem;
-    height: 70rem;
+    width: 40rem;
+    height: 75rem;
     padding: 3rem;
   }
 
   .footer-p {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     text-align: center;
+  }
+
+  .img-thumb {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .comment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
