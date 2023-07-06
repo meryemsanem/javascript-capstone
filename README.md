@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="src/images/logo.png" alt="logo" width="140"  height="auto" style = "border-radius:50%" />
+  <img src="src/images/logo.png" alt="logo" width="140"  height="auto"  />
   <br/>
 
   <h2><b>Restaurant</b></h2>
@@ -62,9 +62,8 @@
 
 >
 
-- [Live Demo](https://yonashenok.github.io/javascript-capstone/)
+- [Live Demo](https://meryemsanem.github.io/javascript-capstone/)
 
-- [Zoom](https://drive.google.com/file/d/1HVq3100k04jXyePyCjIpqW_jGWpC0D7q/view)
 <!-- GETTING STARTED -->
 
 >
