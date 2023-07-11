@@ -53,13 +53,6 @@ const renderMeals = async () => {
     /* eslint-enable */
   });
 
-  const likeData = await getLike();
-
-  likeData.forEach((like) => {
-    document.querySelector(`.like-${like.item_id}`).textContent = like.likes;
-  });
-  const likeBtns = document.querySelectorAll('.like-btn');
-
   mealContainer.addEventListener('click', (e) => {
     e.preventDefault();
     const id = e.target.dataset.tap;
@@ -68,6 +61,9 @@ const renderMeals = async () => {
       renderPopComment(meals, id);
     }
   });
+
+  const likeBtns = document.querySelectorAll('.like-btn');
+
   likeBtns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -79,6 +75,12 @@ const renderMeals = async () => {
         sendLikes({ item_id: `${idLike}` });
       }
     });
+  });
+
+  const likeData = await getLike();
+
+  likeData.forEach((like) => {
+    document.querySelector(`.like-${like.item_id}`).textContent = like.likes;
   });
 };
 
